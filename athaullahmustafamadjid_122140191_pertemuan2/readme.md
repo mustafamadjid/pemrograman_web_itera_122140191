@@ -2,7 +2,7 @@
 
 ## About The Project
 
-<img src="img/home.png" width=500px height=600px>
+<img src="img/home.png" width=800px height=500px>
 
 Aplikasi web ScheDuler ini dibangun dengan tujuan membantu para mahasiswa dalam mencatat dan mengelola jadwal rutin perkuliahan mereka. Tampilan UI yang minimalis membuat aplikasi web ini mnudah untuk dipahami dan digunakan oleh pengguna baru. Melalui aplikasi ScheDuler ini, pengguna dapat menambahkan jadwal perkuliahan yang terdiri dari mata kuliah, dosen pengampu, Hari perkuliahan, Jam perkuliahan, Gedung yang digunakan, dan Ruangan yang digunakan.
 
@@ -48,4 +48,4 @@ Melalui aplikasi ScheDuler ini, kami berharap mahasiswa tidak lagi kesulitan dal
 Athaullah Mustafa Madjid
 Teknik Informatika ITERA
 
-<img src="img/My Photo.jpg" width=300px height=200px>
+<img src="img/My Photo.jpg" width=300px height=300px>
