@@ -33,19 +33,19 @@ Melalui aplikasi ScheDuler ini, kami berharap mahasiswa tidak lagi kesulitan dal
 
 ### Halaman Beranda
 
-<img src="img/beranda.png" width=500px height=600px>
+<img src="img/beranda.png" width=600px height=500px>
 
 ### Halaman Tambah Jadwal
 
-<img src="img/tambahjadwal.png" width=500px height=600px>
+<img src="img/tambahjadwal.png" width=600px height=500px>
 
 ### Halaman Edit Jadwal
 
-<img src="img/updatejadwal.png" width=500px height=600px>
+<img src="img/updatejadwal.png" width=600px height=500px>
 
 ### Kontributor
 
 Athaullah Mustafa Madjid
 Teknik Informatika ITERA
 
-<img src="img/My Photo.jpg" width=200px height=300px>
+<img src="img/My Photo.jpg" width=300px height=200px>
