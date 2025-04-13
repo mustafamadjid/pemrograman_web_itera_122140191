@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/output.css" />
+    <title>Input Form</title>
+  </head>
+  <body class="font-[]">
+    <div
+      class="bg-[#705cbc] h-screen flex flex-col justify-center align-center items-center"
+    >
+      <div
+        class="flex flex-col justify-center gap-7 rounded-md p-4 w-1/3 h-1/2 bg-gray-200"
+      >
+        <h1
+          class="font-bold text-center text-4xl text-[#705cbc] relative bottom-8"
+        >
+          Input Form
+        </h1>
+        <div>
+          <form
+            class="flex flex-col gap-4 justify-center items-center"
+            action=""
+          >
+            <input
+              class="bg-gray-300 rounded-full p-3 w-3/4 placeholder:text-gray-400 focus:border-[#705cbc]"
+              id="input-nama"
+              type="text"
+              placeholder="Nama"
+              required
+            />
+            <input
+              class="bg-gray-300 rounded-full p-3 w-3/4 placeholder:text-gray-400"
+              id="input-email"
+              type="email"
+              placeholder="Email@gmail.com"
+              required
+            />
+            <input
+              class="bg-gray-300 rounded-full p-3 w-3/4 placeholder:text-gray-400"
+              id="input-password"
+              type="password"
+              placeholder=" Password"
+              required
+            />
+            <button
+              id="btn-submit"
+              class="bg-[#705cbc] text-white rounded-full p-3 w-3/4 cursor-pointer hover:bg-[#9f90d4]"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div
+        id="popup"
+        class="hidden flex flex-col justify-center rounded-md p-4 w-1/3 h-1/9 relative top-8 bg-gray-200"
+      >
+        <h2 class="font-bold text-2xl text-[#705cbc] mb-4">
+          Registrasi Berhasil !
+        </h2>
+        <p id="popup-text" class="text-[#705cbc] text-xl"></p>
+      </div>
+    </div>
+
+    <script src="../js/inputForm.js"></script>
+  </body>
+</html>
