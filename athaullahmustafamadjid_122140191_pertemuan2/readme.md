@@ -33,15 +33,15 @@ Melalui aplikasi ScheDuler ini, kami berharap mahasiswa tidak lagi kesulitan dal
 
 ### Halaman Beranda
 
-<img src="img/beranda.png" width=600px height=500px>
+<img src="img/beranda.png" width=700px height=500px>
 
 ### Halaman Tambah Jadwal
 
-<img src="img/tambahjadwal.png" width=600px height=500px>
+<img src="img/tambahjadwal.png" width=700px height=500px>
 
 ### Halaman Edit Jadwal
 
-<img src="img/updatejadwal.png" width=600px height=500px>
+<img src="img/updatejadwal.png" width=700px height=500px>
 
 ### Kontributor
 
