@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-
+import React from "react";
 import { User, BookOpen, House } from "lucide-react";
 
 const menu = [

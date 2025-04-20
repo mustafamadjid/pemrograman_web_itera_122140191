@@ -1,12 +1,51 @@
-# React + Vite
+<!-- ABOUT THE PROJECT -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About The Project
 
-Currently, two official plugins are available:
+<img src="img/home.png" width=800px height=500px>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Website YourBook adalah sebuah web app yang bertujuan memudahkan pengguna dalam melakukan manajemen buku bacaan harian mereka. Website ini dibangun menggunakan library javascript populer yakni ReactJS.
 
-## Expanding the ESLint configuration
+Fitur-fitur dalam aplikasi YourBook ini antara lain :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Menambahkan buku bacaan baru beserta statusnya
+- Mengelola buku-buku yang telah pengguna tambahkan
+- Menampilkan buku-buku sesuai dengan keinginan pengguna
+
+### Instalasi
+
+1. Clone repository
+   ```sh
+   git clone https://github.com/mustafamadjid/pemrograman_web_itera_122140191.git
+   ```
+2. Install NPM packages menggunakan perintah di bawah ini
+   ```sh
+   npm install
+   ```
+3. Ubah git remote url untuk menghindari push yang tidak disengaja ke repository ini
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v
+   ```
+4. Jalankan website
+   ```sh
+   npm run dev
+   ```
+
+<!-- GETTING STARTED -->
+
+## Fitur ReactJS yang Diaplikasikan Dalam Aplikasi Web
+
+- useState
+- useEffect
+- Context API
+- Props
+
+## Screenshot Unit Testing
+
+<img src="img/testing.png">
+
+Athaullah Mustafa Madjid
+Teknik Informatika ITERA
+
+<img src="img/My Photo.jpg" width=300px height=300px>

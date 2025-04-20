@@ -7,6 +7,7 @@ import FormTambahBuku from "../../components/layout/FormTambahBuku/formTambahBuk
 import CardBook from "../../components/layout/CardBook/cardBook";
 
 import { useState, useEffect } from "react";
+import React from "react";
 import getBookData from "../../services/getBook";
 
 const DaftarBuku = () => {
@@ -32,7 +33,7 @@ const DaftarBuku = () => {
 
     const filtered = books.filter((book) => {
       const judul = book?.judul?.toLowerCase() || "";
-      const author = book?.author?.toLowerCase() || "";
+      const author = book?.penulis?.toLowerCase() || "";
       const status = book?.status || "";
 
       const matchSearch =
