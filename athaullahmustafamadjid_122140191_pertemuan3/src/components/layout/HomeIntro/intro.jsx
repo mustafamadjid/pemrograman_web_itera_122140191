@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 import Button from "../../elements/Button/button";
 
 const Intro = () => {
@@ -10,13 +12,15 @@ const Intro = () => {
             Yang Mudah
           </h1>
           <div>
-            <Button
-              variant={
-                "bg-[#d76e5e] rounded-[40px] p-3 hover:scale-105 transition-all duration-300 ease-in-out"
-              }
-            >
-              Mulai Sekarang
-            </Button>
+            <Link to="/daftarbuku">
+              <Button
+                variant={
+                  "bg-[#d76e5e] rounded-[40px] p-3 hover:scale-105 transition-all duration-300 ease-in-out"
+                }
+              >
+                Mulai Sekarang
+              </Button>
+            </Link>
           </div>
         </div>
         <div>

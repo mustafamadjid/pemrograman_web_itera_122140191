@@ -21,3 +21,8 @@ body {
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
+
+.hover-card:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 10px 10px 0px 0px #d76e5e;
+}
