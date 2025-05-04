@@ -2,8 +2,7 @@ from ItemClass.LibraryItemClass import LibraryItem
 
 # Class for book
 class Book (LibraryItem):
-    # Total object instance
-    total_item = 0
+    
     
     def __init__(self,title,author,publisher,year,pages):
         self.title = title
@@ -16,30 +15,29 @@ class Book (LibraryItem):
         # private attribute
         self.__book_code = None
         
-        # Count object instance
-        self.total_item += 1
+       
         
 
     # Getter for book code
     @property
-    def book_code(self):
+    def item_code(self):
         return self.__book_code
     
-    @book_code.setter
-    def book_code(self,value):
+    # Setter for book code
+    @item_code.setter
+    def item_code(self,value):
         self.__book_code = value
     
+     # showing item info 
     def show_info(self):
-        return f"Title: {self.title}, Author: {self.author}, Publisher: {self.publisher}, Year: {self.year}, Pages: {self.pages}, Status: {self.status}"
+        return f"Title: {self.title}, Author: {self.author}, Publisher: {self.publisher}, Year: {self.year}, Pages: {self.pages}, Status: {self.status}, Code: {self.__book_code}"
     
-    def total_item(self):
-        return self.total_item
+    
 
 
 # Class for magazine
 class Magazine (LibraryItem):
-    # Total object instance
-    total_item = 0
+ 
     
     def __init__(self,title,editor,publisher,year,issue):
         self.title = title
@@ -52,22 +50,23 @@ class Magazine (LibraryItem):
         # private attribute
         self.__magazine_code = None
         
-        # Count object instance
-        self.total_item += 1
+        
         
     # Getter for magazine code
     @property
-    def magazine_code (self):
+    def item_code (self):
         return self.__magazine_code
     
-
-    @magazine_code.setter
-    def magazine_code (self,value):
+    # Setter for magazine code
+    @item_code.setter
+    def item_code (self,value):
         self.__magazine_code = value
     
+    # showing item info 
     def show_info(self):
-        return f"Title: {self.title}, Editor: {self.editor}, Publisher: {self.publisher}, Year: {self.year}, Issue: {self.issue}, Status: {self.status}"
+        return f"Title: {self.title}, Editor: {self.editor}, Publisher: {self.publisher}, Year: {self.year}, Pages: {self.issue}, Status: {self.status}, Code: {self.__magazine_code}"
     
+    # Total item 
     def total_item(self):
         return self.total_item
 

@@ -5,13 +5,13 @@ class LibraryItem (ABC):
      # Geter for book code
      @property
      @abstractmethod
-     def book_code(self):
+     def item_code(self):
           pass
      
      # Setter for book code
-     @book_code.setter
+     @item_code.setter
      @abstractmethod
-     def book_code(self, value):
+     def item_code(self, value):
           pass
      
 
@@ -19,7 +19,4 @@ class LibraryItem (ABC):
      def show_info(self):
           pass
      
-     @abstractmethod
-     def total_item(self):
-          pass
-     
+   
