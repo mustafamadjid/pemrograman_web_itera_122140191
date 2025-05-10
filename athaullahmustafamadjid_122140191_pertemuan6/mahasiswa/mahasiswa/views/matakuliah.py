@@ -42,7 +42,7 @@ def matakuliah_tambah(request):
     except Exception as e:
         return HTTPBadRequest(json_body={'error': str(e)})
 
-@view_config(route_name='matakuliah_update',request_method='PUT', renderer='json')
+@view_config(route_name='matakuliah_edit',request_method='PUT', renderer='json')
 def matakuliah_edit(request):
     dbsession = request.dbsession
     matakuliah_id = request.matchdict['id']
