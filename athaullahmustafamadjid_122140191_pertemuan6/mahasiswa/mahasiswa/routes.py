@@ -5,7 +5,7 @@ def includeme(config):
                 # Default route
                 config.add_route('home', '/')
                 
-                # Mahasiswa routes dengan request_method untuk membedakan endpoint dengan URL yang sama
+                # Mata Kuliah routes dengan request_method untuk membedakan endpoint dengan URL yang sama
                 config.add_route('matakuliah_list', '/mahasiswa/matakuliah', request_method='GET')
                 config.add_route('matakuliah_tambah', '/mahasiswa/matakuliah', request_method='POST')
                 config.add_route('matakuliah_edit', '/mahasiswa/matakuliah/{id}', request_method='PUT')

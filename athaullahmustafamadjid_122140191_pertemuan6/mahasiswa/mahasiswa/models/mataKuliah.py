@@ -2,11 +2,11 @@ from sqlalchemy import (
     Column,
     Integer,
     Text,
-    Date,
 )
 
 from .meta import Base
 
+# Membuat tabel matakuliah
 class Matakuliah(Base):
     __tablename__ = 'matakuliah'
     id = Column(Integer, primary_key=True)
